@@ -81,7 +81,7 @@ Frontend/               # 프론트엔드 소스 (React, Vite 등)
 - **환경 변수 관리:**  
   모든 필수 환경 변수는 GitHub Secrets로 관리되며, docker-compose 실행 시 자동으로 주입됩니다.
 - **접근 경로:**  
-  클라이언트의 요청은 Gateway 서버를 통해 라우팅되며, Gateway 서버의 CORS 설정으로 프론트엔드(예: http://localhost:5173)에서의 요청을 허용합니다.
+  클라이언트의 요청은 Gateway 서버를 통해 라우팅되며, Gateway 서버의 CORS 설정으로 프론트엔드(예: `http://localhost:5173`)에서의 요청을 허용합니다.
 
 ---
 
